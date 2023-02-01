@@ -100,7 +100,10 @@
     pointer-events: auto;
 } */
 .about-item-title {
-    text-align: start;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    letter-spacing: 0.02em;
 }
     /* -----------------specifics---------------- */
     .specifics {
@@ -144,10 +147,12 @@
     }
     /* -----------------footer---------------- */
     .footer {
-    padding-left: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
     .footer > .container {
         display: flex;
+        max-width: 1158px;
     }
     
     .footer-container-1 {
@@ -156,4 +161,7 @@
     .footer-container-2 {
     margin-right: 80px;
     }
+    .footer-text {
+    margin-bottom: 0;
+}
 }

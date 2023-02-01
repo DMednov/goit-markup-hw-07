@@ -268,11 +268,11 @@ background-color: #404BBF;
   }
 }
 .hero-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
+      font-size: 36px;
+   line-height: 1.11;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: capitalize;
     color: #FFFFFF;
     margin-bottom: 72px;
 }
@@ -422,10 +422,14 @@ background-color: #404BBF;
     height: 100%;
 } */
 .about-item-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     color: var(--title-color);
     align-items: center;
     margin-bottom: 8px;
-   text-align: center;
+    text-align: center;
 }
 .about-item-text {
     color: var(--first-text-color);

@@ -138,7 +138,11 @@
 }
 /* -----------------footer---------------- */
 .footer {
-    padding-left: 101px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.footer > .container {
+    max-width: 521px;
 }
 .footer-container {
     display: flex; 
@@ -149,8 +153,12 @@
 .footer-logo {
     justify-content: start;
 }
+
 .footer-media-text {
     text-align: start;
+}
+.footer-soc-item {
+    margin-bottom: 0;
 }
 .subscribe-text {
     text-align: start;
